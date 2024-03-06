@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Gregorius Nico Toreh</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Gregorius Nico Toreh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-pic">
+            <img src="./Assets/profile-pic.png" alt="Gregorius Nico profile picture">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hi! I'm</p>
+            <h1 class="title">Gregorius Nico Toreh</h1>
+            <p class="section-text-p2">Full time student at TUM</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/resume-example.pdf')">
+                    Resume (CV)
+                </button>
+                <button class="btn btn-color-1"
+                        onclick="location.href='./#contact'">
+                    My contacts
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/gregoriusnico'">
+                <img src="./Assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/nicnicccc'">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
