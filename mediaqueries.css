@@ -10,9 +10,11 @@
     #projects {
         height: fit-content;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
+
     #desktop-nav {
         display: none;
     }
@@ -37,13 +39,16 @@
     section {
         margin: 0 5%;
     }
-    .section__pic-container {
-        width: 275px;
-        height: 275px;
+    .section__pic-container, .profpic-nico{
+        width: 300px;
+        height: 300px;
         margin: 0 auto 2rem;
     }
     .about-containers {
         margin-top: 0;
+    }
+    .details-container1{
+
     }
 }
 
@@ -90,6 +95,9 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+    }
+    .section__text__p1{
+        font-size: 1.5rem;
     }
     .section__text__p2 {
         font-size: 1.25rem;

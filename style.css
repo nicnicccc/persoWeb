@@ -191,6 +191,7 @@ section {
 }
 
 .section__text__p1 {
+    font-size: 1.75rem;
     text-align: center;
 }
 
@@ -307,12 +308,17 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
+.details-container1{
+    text-align: left;
+}
 
 .section-container {
     gap: 4rem;
     height: 80%;
 }
-
+.x {
+    margin-bottom: 5px;
+}
 .section__pic-container {
     height: 400px;
     width: 400px;
@@ -632,7 +638,7 @@ footer p {
 }
 
 .text-container {
-    font-weight: 450;
-    text-align: justify;
+    font-weight: 400;
+    text-align: left;
 
 }
