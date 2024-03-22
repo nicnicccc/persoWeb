@@ -19,7 +19,10 @@
         display: none;
     }
     #hamburger-nav {
+        width: 100%;
         display: flex;
+        justify-content: space-between;
+        padding: 0 7%;
     }
     #experience,
     .experience-details-container {
@@ -37,18 +40,23 @@
         height: fit-content;
     }
     section {
-        margin: 0 5%;
+        margin: 5% 5%;
     }
     .section__pic-container, .profpic-nico{
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         margin: 0 auto 2rem;
     }
     .about-containers {
         margin-top: 0;
     }
     .details-container1{
-
+        text-align: center;
+        font-size: 17px;
+    }
+    .text-container {
+        text-align: center;
+        font-size: 17px;
     }
 }
 
@@ -97,16 +105,10 @@
         justify-content: center;
     }
     .section__text__p1{
-        font-size: 1.5rem;
-    }
-    .section__text__p2 {
-        font-size: 1.25rem;
-    }
-    .title {
         font-size: 2rem;
     }
-    .text-container {
-        text-align: justify;
+    .section__text__p2 {
+        font-size: 1.75rem;
     }
 }
 
