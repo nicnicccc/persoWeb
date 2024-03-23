@@ -24,9 +24,54 @@
         justify-content: space-between;
         padding: 0 7%;
     }
+    .hamburger-icon {
+        height: 32px;
+        width: 40px;
+    }
+    .hamburger-icon.open span:first-child {
+        transform: rotate(45deg) translate(12px, 8px);
+    }
+    .hamburger-icon.open span:last-child {
+        transform: rotate(-45deg) translate(12px, -8px);
+    }
+    .logo {
+        font-size: 3rem;
+    }
+    .btn {
+        width: 30%;
+        height: 80px;
+        border-radius: 4rem;
+        font-size: 1.8rem;
+    }
+    .section__text__p1 {
+        font-size: 3rem;
+    }
+    .title {
+        font-size: 3.5rem;
+    }
+    .section__text__p2 {
+        font-size: 2.5rem;
+    }
     #experience,
     .experience-details-container {
         margin-top: 2rem;
+    }
+    .about-containers {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-containers article div{
+        font-size: 1.5rem;
+    }
+    .icon {
+        height: 3.5rem;
+    }
+    article {
+        width: auto;
+    }
+    .article-container {
+        justify-content: left;
+        padding: 15px;
     }
     #profile,
     .section-container {
@@ -56,7 +101,7 @@
         margin-top: 0;
     }
     .details-container1{
-        text-align: center;
+        text-align: left;
         font-size: 17px;
     }
     .text-container {
@@ -117,14 +162,23 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .timeline {
         display: block;
     }
 
+    .timeline ol li div {
+        width: 350px;
+        height: 150px;
+        font-size: 22px;
+    }
     .timeline::before,
     .timeline::after {
         width: 50px;
+    }
+
+    .timeline ol li:not(:first-child) {
+        margin-left: 40px;
     }
 
     .timeline::before {
