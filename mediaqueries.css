@@ -73,6 +73,7 @@
         justify-content: left;
         padding: 15px;
     }
+
     #profile,
     .section-container {
         display: block;
@@ -103,6 +104,9 @@
     .details-container1{
         text-align: left;
         font-size: 17px;
+    }
+    .wowo {
+        justify-content: center !important;
     }
     .text-container {
         text-align: center;
